@@ -6,6 +6,3 @@ zuul.routes.api-b.serviceId=portal-service
 #log
 logging.config=classpath:logback.xml
 logging.path=/home/cn/java/log/zuul
-#路由
-zuul.routes.api-a.path=/manager/**
-zuul.routes.api-a.serviceId=manager-service
